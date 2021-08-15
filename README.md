@@ -49,6 +49,6 @@
 
   ## Collaboration 
   
-  Please feel free to collaborate with me on this project! Just fork it and submit a well documented pull request.
+  Please feel free to collaborate with me on this project. Just download it and submit a well documented pull request.
   
   If you have any questions, please contact me at toddgranados@gmail.com
