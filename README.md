@@ -1,6 +1,7 @@
 # Employee Management System[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Screenshot
+![Screen Shot 2021-09-07 at 4 02 43 PM](https://user-images.githubusercontent.com/85806673/132404045-d744cf6f-41ee-4fdc-98d4-f9aea84c1292.jpg)
 
   ## Description
 
