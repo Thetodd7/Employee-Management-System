@@ -8,18 +8,18 @@ class DB {
   // returns all of the employee related data from the db
   findAllEmployees() {
     return this.connection.query(
-      "SELECT employee.id, employee.first_name, employee.last_name, role.title, department.name AS department, role.salary, CONCAT(manager.first_name, ' ', manager.last_name) AS manager FROM employee LEFT JOIN role on employee. role_id = role.id LEFT JOIN department on role.department_id = department.id LEFT JOIN employee manager on manager.id = employee.manager_id;"
-    );
+      "SELECT employee.id, employee.first_name, employee.last_name, role.title, department.name AS department, role.salary, CONCAT(manager.first_name, ' ', manager.last_name) AS manager FROM employee LEFT JOIN role on employee.role_id = role.id LEFT JOIN department on role.department_id = department.id LEFT JOIN employee manager on manager.id = employee.manager_id;"
+    )
   }
   // returns the department table from the db
   findAllDepartments() {
-    return this.connection.query("SELECT * FROM department;");
+    return this.connection.query("SELECT * FROM department;")
   }
   // returns all the related data about the roles
   findAllRoles() {
     return this.connection.query(
       "SELECT role.id, role.title, role.salary, department.name AS department FROM role LEFT JOIN department on role.department_id = department.id;"
-    );
+    )
   }
   // creates a new dept using the value from inquirer
   addNewDepartment(newDept) {

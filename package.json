@@ -1,15 +1,16 @@
 {
-  "name": "employee-tracker",
+  "name": "employee-management-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CMS for employee info",
+  "main": "server.js",
   "dependencies": {
     "inquirer": "^8.1.2",
     "mysql2": "^2.2.5"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC"
